@@ -21,6 +21,9 @@
 - [fexnes.dev](https://discord.com/users/941844949824069692)
 ## 🎩 Replit code link
 
+- [repl.it](https://replit.com/@oBloody/Auto-responder?v=1)
+
+## 🎨 Custom Activity
 - [repl.it](https://replit.com/@oBloody/Custom-Activity?v=1)
 
 ## 📝 Support server
