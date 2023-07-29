@@ -9,12 +9,14 @@ keepAlive();
 
 client.on('ready', async () => {
   console.clear();
-  console.log(`${client.user.username} - Auto reponder ready to use`);
-})
+  console.log(`${client.user.username} - Auto responder ready to use`);
+});
 
 client.on('messageCreate', (message) => {
-  if (message.content.startsWith('<@ID>')) { // Replace <@ID> according to the command tag you want
-    message.channel.send('Hello, can anyone help?'); // Change the response message according to what you want
+  if (message.content.startsWith('<@ID>')) {
+    // Replace <@ID> according to the command tag you want
+    message.channel.send('Hello, can anyone help?');
+    // Change the response message according to what you want
   }
 });
 
